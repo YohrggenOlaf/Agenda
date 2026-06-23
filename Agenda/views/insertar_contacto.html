@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Contacto</title>
+</head>
+<body>
+
+    <h1>Contacto Nuevo</h1>
+
+    <form method="POST" action="/insertar">
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="primer_apellido">Primer Apellido:</label><br>
+        <input type="text" id="primer_apellido" name="primer_apellido" required><br><br>
+
+        <label for="segundo_apellido">Segundo Apellido:</label><br>
+        <input type="text" id="segundo_apellido" name="segundo_apellido"><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Confirmar</button>
+        
+        <a href="/">
+            <button type="button">Regresar</button>
+        </a>
+
+    </form>
+
+</body>
+</html>
