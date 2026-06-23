@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Contacto</title>
+</head>
+<body>
+
+    <h1>Validar datos</h1>
+
+    <form action="/lista">
+        <label for="id_contacto">ID:</label>
+        <input type="text" id="id_contacto" name="id_contacto" value="1" readonly><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="Mark" required><br><br>
+
+        <label for="primer_apellido">Apellido Pri.:</label>
+        <input type="text" id="primer_apellido" name="primer_apellido" value="Otto" required><br><br>
+
+        <label for="segundo_apellido">Segundo Apellido:</label>
+        <input type="text" id="segundo_apellido" name="segundo_apellido" value="Pérez"><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" value="555-123-4567" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="mark@email.com" required><br><br>
+
+        <button type="submit">Confirmar (Simulado)</button>
+        <a href="/lista"><button type="button">Regresar</button></a>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+    <h1>Lista de contactos</h1>
+    <p>Contactos guardados actualmente</p>
+
+    <label for="buscar">Buscar:</label>
+    <input type="text" id="buscar" name="buscar" placeholder="Ingresa un nombre...">
+    <br><br>
+
+    <table class="table table-striped-columns">
+        <thead>
+            <tr class="table-info">
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+                <th>Acciones</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto Pérez</td>
+                <td>555-123-4567</td>
+                <td>mark@email.com</td>
+                <td>
+                    <a href="/detalles"><button type="button" class="btn btn-outline-primary">Ver detalles</button></a>
+                    <a href="/editar" ><button type="button" class="btn btn-outline-warning">Editar</button></a>  
+                    <a href="/borrar" ><button type="button" class="btn btn-outline-danger">Borrar</button></a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton López</td>
+                <td>555-987-6543</td>
+                <td>jacob@email.com</td>
+                <td>
+                    <a href="/detalles"><button type="button" class="btn btn-outline-primary">Ver detalles</button></a>
+                    <a href="/editar" ><button type="button" class="btn btn-outline-warning">Editar</button></a>  
+                    <a href="/borrar" ><button type="button" class="btn btn-outline-danger">Borrar</button></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <a href="#">1</a>, <a href="#">2</a>, <a href="#">3</a> ... <a href="#">99</a>
+    <br><br>
+
+    <a href="/insertar" class="btn btn-primary">Insertar</a>
+    <a href="/" class="btn btn-secondary">Regresar</a>
+
+</body>
+</html>
