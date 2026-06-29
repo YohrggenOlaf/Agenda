@@ -1,0 +1,8 @@
++-------------+--------+-----------------+------------------+-----------------+----------+
+| id_contacto | nombre | primer_apellido | segundo_apellido |      email      | telefono |
++-------------+--------+-----------------+------------------+-----------------+----------+
+| 1           | Dejha  | Thoris          | Barson           | dejha@email.com | 11111    |
+| 2           | Jonh   | Carter          | Earth            | jonh@email.com  | 22222    |
+| 3           | Dejha  | Thoris          | Barson           | dejha@email.com | 11111    |
+| 4           | Jonh   | Carter          | Earth            | jonh@email.com  | 22222    |
++-------------+--------+-----------------+------------------+-----------------+----------+
